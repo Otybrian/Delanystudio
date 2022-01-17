@@ -16,7 +16,14 @@ $(document).ready(function () {
         $("#development-one").toggle();
         $("#pro1").toggle();
     });
-
+    $("#product-one").click(function () {
+        $("#pro2").toggle();
+        $("#product-one").toggle();
+    });
+    $("#pro2").click(function () {
+        $("#product-one").toggle();
+        $("#pro2").toggle();
+    });
 
 });
 
