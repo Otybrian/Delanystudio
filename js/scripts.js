@@ -25,6 +25,72 @@ $(document).ready(function () {
         $("#pro2").toggle();
     });
 
+    $("#first").mouseenter(function () {
+        $("#first").hide();
+        $("#first-proj").show();
+    });
+    $("#first").mouseleave(function () {
+        $("#first").show();
+        $("#first-proj").hide();
+    });
+
+    $("#second").mouseenter(function () {
+        $("#second").hide();
+        $("#second-proj").show();
+    });
+    $("#second").mouseleave(function () {
+        $("#second").show();
+        $("#second-proj").hide();
+    });
+    $("#third").mouseenter(function () {
+        $("#third").hide();
+        $("#third-proj").show();
+    });
+    $("#third").mouseleave(function () {
+      $("#third").show();
+      $("#third-proj").hide();
+    });
+    $("#fourth").mouseenter(function () {
+        $("#fourth").hide();
+        $("#fourth-proj").show();
+    });
+    $("#fourth").mouseleave(function () {
+      $("#fourth").show();
+      $("#fourth-proj").hide();
+    });
+    $("#fifth").mouseenter(function () {
+        $("#fifth").hide();
+        $("#fifth-proj").show();
+    });
+    $("#fifth").mouseleave(function () {
+      $("#fifth").show();
+      $("#fifth-proj").hide();
+    });
+    $("#sixth").mouseenter(function () {
+        $("#sixth").hide();
+        $("#sixth-proj").show();
+    });
+    $("#sixth").mouseleave(function () {
+      $("#sixth").show();
+      $("#sixth-proj").hide();
+    });
+    $("#seventh").mouseenter(function () {
+        $("#seventh").hide();
+        $("#seventh-proj").show();
+    });
+    $("#seventh").mouseleave(function () {
+      $("#seventh").show();
+      $("#seventh-proj").hide();
+    });
+    $("#eighth").mouseenter(function () {
+        $("#eighth").hide();
+        $("#eighth-proj").show();
+    });
+    $("#eighth").mouseleave(function () {
+      $("#eighth").show();
+      $("#eighth-proj").hide();
+    });
+
 });
 
 
