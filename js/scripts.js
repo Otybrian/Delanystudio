@@ -8,4 +8,11 @@ function sendMessage() {
     console.log(givenName);
 
 
+    function validName() {
+        if (inputtedName == "") {
+            alert("please input your name!");
+            document.getElementById("name").focus();
+            return false;
+        }
+    }
 };
