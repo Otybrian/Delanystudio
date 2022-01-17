@@ -8,9 +8,16 @@ $(document).ready(function () {
         $("#pro").toggle();
     });
 
+    $("#development-one").click(function () {
+        $("#pro1").toggle();
+        $("#development-one").toggle();
+    });
+    $("#pro1").click(function () {
+        $("#development-one").toggle();
+        $("#pro1").toggle();
+    });
 
 
-    
 });
 
 
