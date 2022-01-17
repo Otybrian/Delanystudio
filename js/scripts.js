@@ -1,3 +1,20 @@
+$(document).ready(function () {
+    $("#design-one").click(function () {
+        $("#pro").toggle();
+        $("#design-one").toggle();
+    });
+    $("#pro").click(function () {
+        $("#design-one").toggle();
+        $("#pro").toggle();
+    });
+
+
+
+    
+});
+
+
+
 function sendMessage() {
     var inputtedName = document.getElementById("name").value;
     var inputtedEmail = document.getElementById("email").value;
@@ -32,5 +49,5 @@ function sendMessage() {
         }
     }
 
-
+    alert("Hello " + document.getElementById("name").value + ', We are glad you reached out to us. Thank you for your message. We shall get back to you soonest!');
 };
